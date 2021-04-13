@@ -23,3 +23,10 @@ Things you may want to cover:
 
 * ...
 # oauth2_sample
+
+curl --location --request POST 'localhost:3000/oauth/token' \
+--form 'email="user@test.com"' \
+--form 'password="password"' \
+--form 'grant_type="password"' \
+--form 'client_id="ii3f2rxsWgWpKFgn-yFujIqYsa1XsYfvAUkuXLwFfqw"' \
+--form 'client_secret="iOFk8oJQT6bPXOg4XVCyJ7FoT-fuHnRsXdrNkZWxuN4"'
